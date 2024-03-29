@@ -18,7 +18,18 @@ document.querySelectorAll('.selectButton').forEach(bin => {
 });
 
 
-test
+
+
+document.querySelector('.BookButton').addEventListener('click', function() {
+    const step1 = document.querySelector('.step1');
+    
+
+
+    step1.style.display = 'none';
+
+
+  
+});
 
 
 const date = new Date();

@@ -22,9 +22,7 @@
     opacity: 0.5;
     z-index: -1;
 }
-.navbar{
-    display:none;
-}
+
 .navbar{
     width: auto;
     height: auto;
@@ -85,17 +83,6 @@
 
 }
 
-.foundation{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 5vw;
-
-
-    width: 80vw;
-    height: 70vh;
-    border: 2px solid black;
-
-}
 
 .first{
     width: auto;
@@ -130,17 +117,22 @@
 
 .selectionmenu{
     
+    display: none;
 
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    
+
     justify-content: center;
-
-    
     
 
 }
 
+.step2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+
+}
 
 .selectDate{
     color:black;
@@ -180,7 +172,6 @@
 
 .selectBin1{
     width: 100%;
-    gap: 2vw;
     justify-content: center;
     display:flex;
     flex-direction: row;
@@ -191,8 +182,7 @@
 
 .box{
     margin:10px ;
-    width: 15vw;
-    
+    width: 20vw;
     height: 30vh;
     background-color: black;
     position: relative;
@@ -231,10 +221,7 @@
 }
 
 
-
 .step2{
-
-    display: none;
     font-size: 62.5%;
     width: auto  ;
     height:auto;
@@ -242,7 +229,7 @@
     
     justify-content: center;
     align-items: center;
-
+    display: flex;
     flex-direction: column;
 }
 
@@ -377,18 +364,4 @@
 .today{
     background-color: black;
     color: white;
-}
-
-.selectbackground{
-    display: flex;
-    flex-direction: column;
-}
-
-@media (max-width:1000px){
-.selectionmenu{
-    opacity: 0;
-    visibility: hidden;
-    
-}
-
 }
