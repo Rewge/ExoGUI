@@ -21,7 +21,7 @@ document.querySelectorAll('.selectButton').forEach(bin => {
 
 
 document.querySelector('.BookButton').addEventListener('click', function() {
-    const step1 = document.querySelector('.step1');
+    const step1 = document.qu3117erySelector('.step1');
     
 
 
