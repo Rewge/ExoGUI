@@ -1,7 +1,7 @@
 let FinalRecord=" ";
 
 document.querySelector('nextStep').addEventListener('click',()=>{
-    document.querySelectorAll('.select').forEach(element=>{
+    document.querySelectorAll('.select.w-button').forEach(element=>{
         element.addEventListener('click',()=>{
             const step4= document.querySelector('.div-block-13.');
             step4.style.display ='none';
