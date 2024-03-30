@@ -131,7 +131,7 @@
 }
 
 .past-date{
-    color:rgb(151, 65, 65);
+    color:rgb(174, 174, 174);
     
 }
 .prev-date{
@@ -139,7 +139,8 @@
 }
 
 .next-date{
-    color:rgb(101, 101, 101);
+    color:rgb(41, 41, 41);
+
 }
 .selectButton{
     color:white;
@@ -163,7 +164,7 @@
 
     justify-content: center;
     align-items: center;
-    visibility:hidden;
+    visibility:visible;
 
     display: flex;
     flex-direction: column;
@@ -306,6 +307,10 @@
     color: white;
 }
 
+
+
+
+
 .today{
     background-color: black;
     color: white;
@@ -327,5 +332,11 @@ cursor: pointer;
  background-color: #1976d2;
  width: 5rem;
  text-align: center;
+
+}
+
+.clicked{
+    background-color: darkgreen;
+    color: white;
 
 }

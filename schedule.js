@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded',()=>{
         }
 )})});
 
+
+let prevclickCount=null;
+
+
 document.addEventListener('DOMContentLoaded',()=>{
 
 document.querySelector('.backStep').addEventListener('click',()=>{
@@ -104,9 +108,80 @@ days +=  '<div>'+i+'</div>';
 
 
 for(let j=1;j<=nextDays;j++){
+
     days+= '<div class="next-date">' + j +'</div>'; 
 }
+
 monthDays.innerHTML = days;
+
+    document.querySelectorAll('.next-date').forEach(element=>{
+
+        element.addEventListener('click',()=>{
+            Number = parseInt(element.innerHTML);
+            date.setMonth(date.getMonth()+1);
+            renderCalender();
+  
+
+            document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
+  
+                
+                   
+                    
+                    if (parseInt(element.innerHTML)===Number){
+                        
+                        element.classList.add('clicked');
+                        prevclick=element;
+                        prevclickCount=1;
+                    }
+                  
+                }
+            
+            )
+            }
+            )
+            
+    
+    
+    
+
+
+        })
+    
+       
+
+
+
+
+
+
+
+
+
+    document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
+  
+        element.addEventListener('click',()=>{
+           
+            
+            if (prevclickCount===1){
+                prevclick.classList.remove('clicked');
+                element.classList.add('clicked');
+                prevclick=element;
+                prevclickCount=1;
+            }
+            else{
+                prevclick=element;
+                element.classList.add('clicked');
+                prevclickCount=1;
+
+
+             }
+
+        }
+    
+    )
+    }
+    )
+
 
 }
 
