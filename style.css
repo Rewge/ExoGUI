@@ -164,7 +164,7 @@
 
     justify-content: center;
     align-items: center;
-    visibility:visible;
+    visibility:hidden;
 
     display: flex;
     flex-direction: column;
@@ -322,13 +322,15 @@
     margin:5rem;
     width: 45rem;
     display:flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 2rem;
 
 }
 
 .navigate div{
 cursor: pointer;
+padding: 5px;
  color: white;
  background-color: #1976d2;
  width: 5rem;
@@ -341,3 +343,19 @@ cursor: pointer;
     color: white;
 
 }
+
+.div-block-13{
+
+}
+
+.divblock14{
+
+
+}
+
+/*
+
+div-block-24//Submit button
+submitfinal/submit text
+
+heading-3/you have selected */
