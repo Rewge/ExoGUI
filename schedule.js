@@ -17,7 +17,7 @@ document.querySelector('.backStep').addEventListener('click',()=>{
     
             box.style.visibility = 'visible';
             const box2= document.querySelector('.step2');
-            box2.style.visibility='hidden';
+            box2.style.visibility='none';
 
 
 })})
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const box = document.querySelector('.w-layout-blockcontainer.w-container');
             box.style.visibility = 'hidden';
             const box2= document.querySelector('.step2');
-            box2.style.visibility='hidden';
+            box2.style.display='none';
 
 
 })})
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const box = document.querySelector('.w-layout-blockcontainer.w-container');
             box.style.visibility = 'hidden';
             const box2= document.querySelector('.step2');
-            box2.style.visibility='visible';
+            box2.style.visibility='flex';
         }
         )
         
