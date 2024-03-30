@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded',()=>{
+    document.querySelectorAll('.divblock9').forEach(element => {
+        element.addEventListener('click',()=>{
+            const bin = element.getAttribute('Id')
+        }
+)})});
+
+
 
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
@@ -97,3 +105,4 @@ document.querySelector('.arrow2').addEventListener('click',()=>{
 });
 
 renderCalender()
+
