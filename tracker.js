@@ -25,13 +25,19 @@ let FinalRecord=" ";
     })
 
     document.querySelector('.div-block-24').addEventListener('click',()=>{
+
+
+
         FinalRecord += " Name : " + document.getElementById("name").value;
         FinalRecord += " Phone Number : " + document.getElementById("email").value;
         FinalRecord += " Email : " + document.getElementById("email-2").value;
-        FinalRecord += " Address : " + document.getElementById("field").value + " " +  document.getElementById("field-2").value + " " + document.getElementById("field-3").value;
+        FinalRecord += " Address : " + document.getElementById("field").value + ", " +  document.getElementById("field-2").value + " ," + document.getElementById("field-3").value;
         FinalRecord += " Additional Requests : " + document.getElementById("request").value;
         console.log(FinalRecord);
-    
+        document.getElementById("addresstextput").textContent = ' to ' + document.getElementById("field").value + ", " +  document.getElementById("field-2").value + " ," + document.getElementById("field-3").value;
+
+        
+        
 
 
 
@@ -43,6 +49,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
         element.addEventListener('click',()=>{
             const id = element.id;
+            document.getElementById("bintextput").textContent = 'You have selected the ' + element.id + 'bin';
             console.log(id); 
                 
     })
@@ -84,7 +91,7 @@ document.querySelector('.nextStep').addEventListener('click',track)
 function track(){
     FinalRecord += "Date : "+ (document.querySelector('.clicked').innerHTML);
     FinalRecord += " Month : " + months[date.getMonth()];
-
+    document.getElementById("timetextput").textContent = ' to be delivered on ' + document.querySelector('.clicked').innerHTML + ' ' +  months[date.getMonth()];
     console.log(FinalRecord);
     console.log()
 }

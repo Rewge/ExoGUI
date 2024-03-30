@@ -1,3 +1,12 @@
+document.getElementById("bintextput").textContent = '';
+document.getElementById("addresstextput").textContent = '';
+document.getElementById("timetextput").textContent = '';
+
+
+
+
+
+
 
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
