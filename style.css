@@ -164,6 +164,7 @@
     justify-content: center;
     align-items: center;
     visibility:hidden;
+    display: flex;
     flex-direction: column;
 }
 

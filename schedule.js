@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const box = document.querySelector('.w-layout-blockcontainer.w-container');
             box.style.visibility = 'hidden';
             const box2= document.querySelector('.step2');
-            box2.style.display='flex';
+            box2.style.visibility='visible';
         }
         )
         
