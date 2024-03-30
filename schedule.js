@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const block12 = document.querySelector('.div-block-12')
             block12.style.display='none';
             box2.style.display='none';
-            const step4= document.querySelector('.div-block-13.');
+            const step4= document.querySelector('.div-block-13');
             step4.style.display ='flex';
            
 
