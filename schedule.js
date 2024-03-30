@@ -1,4 +1,5 @@
-document.querySelectorAll('.div-block-9').addEventListener('click',()=>{
+document.querySelectorAll('.div-block-9').forEach(element => {
+element.addEventListener('click',()=>{
     const box = document.querySelector('.w-layout-blockcontainer.w-container');
     box.style.visibility = 'hidden';
     const box2= document.querySelector('.step2');
@@ -6,6 +7,7 @@ document.querySelectorAll('.div-block-9').addEventListener('click',()=>{
 }
 )
 
+})
 
 
 
