@@ -9,79 +9,6 @@
 
 }
 
-.navbar::before {
-    content: ""; /* Required for pseudo-elements */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%; /* You should set a height for your navbar */
-    background-image: url("navbarbg.jpeg");
-    background-size: cover; /* or contain, depending on your needs */
-    background-position: center center;
-    opacity: 0.5;
-    z-index: -1;
-}
-
-.navbar{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-    gap:0;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-bottom: 1%;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    border-bottom: 1px solid black;
-    z-index: 2;
-}
-
-
-
-.navbar-left{
-    padding: 2px 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: auto;
-    transition: background-color 0.5s ease;
-
-}
-.navbar-left:hover,.navbar-right-items>*:hover{
-    width: auto;
-    background-color: white;
-    
-    color:black;
-    animation: bounce 0.1s ease forwards;
-    cursor: pointer;
-}
-
-.navbar-right-items{
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    animation:none;
-    
-}
-
-.navbar-right-items>*{
-    width: auto;
-    padding: 1% 1%;
-
-    border: 1px solid black;
-    border-radius: 5px;
-    
-    transition: background-color 0.5s ease,
-                color 0.5s ease,
-
-
-}
 
 
 .first{
@@ -203,6 +130,17 @@
 
 }
 
+.past-date{
+    color:rgb(151, 65, 65);
+    
+}
+.prev-date{
+    color:rgb(213, 213, 213);
+}
+
+.next-date{
+    color:rgb(101, 101, 101);
+}
 .selectButton{
     color:white;
     background-color: #1976d2;
@@ -225,7 +163,7 @@
 
     justify-content: center;
     align-items: center;
-    display:none;
+    display:flex;
     flex-direction: column;
 }
 
@@ -235,14 +173,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(30, 50, 47);
+    background-color: rgb(33, 33, 33);
     width: 45rem; 
     height: 5rem;  
-    color:rgb(232, 232, 232);
+    color:rgb(255, 255, 255);
 }
 
 .calendarBG2{
-    background-color: #dddddd;
+    background-color: #ffffff;
     width: 45rem;
     height: 25rem;
     color:rgb(2, 1, 59);
@@ -340,6 +278,12 @@
     padding: 0.8rem 0;
     font-size: 1.5rem;
     transition:0.1s ease-in-out;
+    cursor: not-allowed;
+
+}
+
+.calendarPrevDates div:not(.prev-date):not(.past-date){
+    
     cursor: pointer;
 
 }
@@ -347,14 +291,13 @@
 .calendarDays div:hover{
     background-color: black;
     color:white;
-}
-
-.calendarPrevDates div:hover{
-  
     outline:0.5px solid rgb(0, 65, 71);
+
+}
+.calendarPrevDates div:not(.prev-date):not(.past-date):hover {
+    outline: 0.5px solid rgb(0, 65, 71);
     background-color: black;
     color: white;
-
 }
 
 .today{

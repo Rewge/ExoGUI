@@ -62,6 +62,9 @@ for (let i= 1; i<=lastDate ; i++){
     if(i === new Date().getDate() && date.getMonth() === new Date().getMonth() ){
         days+= '<div class="today">' + i + '</div>';
     }
+    else if(i< new Date().getDate() && date.getMonth()=== new Date().getMonth()){
+        days += '<div class="past-date">' + i + '</div>';
+    }
     else {
 days +=  '<div>'+i+'</div>';
 }
