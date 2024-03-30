@@ -163,7 +163,7 @@
 
     justify-content: center;
     align-items: center;
-    visibility:hidden;
+    visibility:visible;
 
     display: flex;
     flex-direction: column;
@@ -306,5 +306,22 @@
     background-color: black;
     color: white;
     color:whitesmoke;
+
+}
+
+.navigate{
+    width: 45rem;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+
+}
+
+.navigate div{
+cursor: pointer;
+ color: white;
+ background-color: #1976d2;
+ width: 5rem;
+ text-align: center;
 
 }

@@ -1,9 +1,27 @@
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
         element.addEventListener('click',()=>{
-            const bin = element.getAttribute('Id')
+            const bin = element.getAttribute('Id');
         }
 )})});
+
+document.querySelector('.backStep').addEventListener('click',()=>{
+    const box = document.querySelector('.w-layout-blockcontainer.w-container');
+            box.style.visibility = 'visible';
+            const box2= document.querySelector('.step2');
+            box2.style.visibility='hidden';
+
+
+})
+
+document.querySelector('.nextStep').addEventListener('click',()=>{
+    const box = document.querySelector('.w-layout-blockcontainer.w-container');
+            box.style.visibility = 'hidden';
+            const box2= document.querySelector('.step2');
+            box2.style.visibility='hidden';
+
+
+})
 
 
 
