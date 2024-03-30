@@ -1,6 +1,6 @@
 let FinalRecord=" ";
 
-document.querySelector('nextStep').addEventListener('click',()=>{
+
     document.addEventListener('DOMContentLoaded',()=>{
         document.querySelectorAll('.select.w-button').forEach(element=>{
             element.addEventListener('click',()=>{
@@ -20,7 +20,7 @@ document.querySelector('nextStep').addEventListener('click',()=>{
     
     })
 
-    })
+    
    
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
