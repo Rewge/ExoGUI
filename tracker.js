@@ -4,7 +4,7 @@ let FinalRecord=" ";
     document.addEventListener('DOMContentLoaded',()=>{
         document.querySelectorAll('.select.w-button').forEach(element=>{
             element.addEventListener('click',()=>{
-                alert("Test");
+                
                 const step4= document.querySelector('.div-block-13');
                 step4.style.display ='none';
                 const step5 = document.querySelector('.divblock14');
