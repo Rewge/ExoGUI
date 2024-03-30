@@ -18,7 +18,7 @@ document.querySelector('.backStep').addEventListener('click',()=>{
     block12.style.display='none';
             box.style.visibility = 'visible';
             const box2= document.querySelector('.step2');
-            box2.style.visibility='none';
+            box2.style.display='none';
 
 
 })})
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const block12 = document.querySelector('.div-block-12')
             block12.style.display='flex';
             const box2= document.querySelector('.step2');
-            box2.style.visibility='flex';
+            box2.style.display='flex';
         }
         )
         
