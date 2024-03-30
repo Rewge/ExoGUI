@@ -1,5 +1,6 @@
 document.querySelector('.div-block-9').addEventListener('click',()=>{
-    alert("YO!")
+    const box = document.querySelector('.w-layout-blockcontainer.w-container');
+ box.style.display = 'none';
 }
 )
 
