@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded',()=>{
-    document.querySelectorAll('.div-block-9').forEach(element => {
+    document.querySelectorAll('.divblock9').forEach(element => {
         element.addEventListener('click',()=>{
             const box = document.querySelector('.w-layout-blockcontainer.w-container');
             box.style.display = 'none';
