@@ -1,6 +1,6 @@
-document.getElementById("bintextput").textContent = '';
-document.getElementById("addresstextput").textContent = '';
-document.getElementById("timetextput").textContent = '';
+document.getElementById("bintextput").textContent = ' ' ;
+document.getElementById("addresstextput").textContent = ' ';
+document.getElementById("timetextput").textContent = ' ';
 
 
 
@@ -35,6 +35,8 @@ document.querySelector('.backStep').addEventListener('click',()=>{
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelector('.nextStep').addEventListener('click',()=>{
     const box = document.querySelector('.w-layout-blockcontainer.w-container');
+
+
             box.style.display = 'none';
             const box2= document.querySelector('.step2');
             const block12 = document.querySelector('.div-block-12')
