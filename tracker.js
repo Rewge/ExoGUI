@@ -7,6 +7,10 @@ let FinalRecord=" ";
                 
                 const step4= document.querySelector('.div-block-13');
                 step4.style.display ='none';
+
+                FinalRecord += " Time selected: " + element.id ;
+                console.log(FinalRecord);
+
                 const step5 = document.querySelector('.divblock14');
                 step5.style.display ='flex';
     
