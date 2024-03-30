@@ -1,3 +1,8 @@
+document.querySelector('.div-block-9').addEventListener('click',()=>{
+    alert("YO!")
+}
+)
+
 
 
 const date = new Date();
