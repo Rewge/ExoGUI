@@ -142,12 +142,9 @@
 }
 
 .divBlock9.binButton{
-    display:none;
+    display:none; !important
 }
 
-#binButtonID{
-    display:none;
-}
 
 .selectBinText{
     width: 10%;
