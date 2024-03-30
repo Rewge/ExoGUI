@@ -1,24 +1,3 @@
-let confirmation ="Bin(s) Selected: ";
-
-document.querySelectorAll('.selectButton').forEach(bin => {
-    bin.addEventListener('click', function() {
-        const selectionMenu = document.querySelector('.selectionmenu');
-        const step2 = document.querySelector('.step2');
-    
-    
-        selectionMenu.style.display = 'none';
-    
-    
-        step2.style.display = 'flex'; // Or 'block', depending on your layout
-    
-    
-        confirmation +=  + bin.getAttribute('value') + ", " ;
-        console.log(confirmation); // This will log the value attribute of the clicked div
-    });
-});
-
-
-test
 
 
 const date = new Date();
