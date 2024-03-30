@@ -145,6 +145,10 @@
     display:none;
 }
 
+#binButtonID{
+    display:none;
+}
+
 .selectBinText{
     width: 10%;
     height: 40px;
