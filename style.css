@@ -164,7 +164,7 @@
 
     justify-content: center;
     align-items: center;
-    visibility:hidden;
+    visibility:visible;
 
     display: flex;
     flex-direction: column;
@@ -319,6 +319,7 @@
 }
 
 .navigate{
+    margin:5rem;
     width: 45rem;
     display:flex;
     justify-content: space-between;
