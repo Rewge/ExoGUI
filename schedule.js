@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const block12 = document.querySelector('.div-block-12')
             block12.style.display='none';
             box2.style.display='none';
+            document.querySelector('.div-block-41').style.display='flex';
             const step4= document.querySelector('.div-block-13');
             step4.style.display ='flex';
            

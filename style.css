@@ -1,5 +1,7 @@
 *{
     margin:0 0;
+    padding: 0;
+    box-sizing: border-box; /* Add this line to handle padding and borders */
 
 }
 
@@ -75,6 +77,7 @@
     font-size: 62.5%;
     width: auto ;
     height:auto;
+    overflow: hidden; /* Add this line to hide overflow */
 
     justify-content: center;
     align-items: center;
@@ -87,7 +90,9 @@
     transform: scale(0.5); 
     transform-origin:top left;
 }
-
+.div-block-41{
+    display: none;
+}
 .calendarBG1{
     position: relative;
     display: flex;
