@@ -1,19 +1,31 @@
 let FinalRecord=" ";
+let binselectedfinal =     document.getElementById('field-4');
+let timeselectedfinal = document.getElementById('field-5');
+let binselected = " ";
+let timeselected = " ";
+binselectedfinal.disabled=true;
+
+timeselectedfinal.disabled = true;
+
+
+
+
 
 
     document.addEventListener('DOMContentLoaded',()=>{
         document.querySelectorAll('.select.w-button').forEach(element=>{
             element.addEventListener('click',()=>{
-                
+        
                 const step4= document.querySelector('.div-block-13');
                 step4.style.display ='none';
 
-                FinalRecord += " Time selected: " + element.id ;
+                timeselected = element.id ;
                 console.log(FinalRecord);
 
                 const step5 = document.querySelector('.divblock14');
                 step5.style.display ='flex';
-    
+                binselectedfinal.placeholder= binselected;
+                timeselectedfinal.placeholder =timeselected;
     
             })
            
@@ -49,7 +61,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
         element.addEventListener('click',()=>{
             const id = element.id;
-            document.getElementById("bintextput").textContent = 'You have selected the ' + element.id + 'bin';
+            binselected = element.id ;
             console.log(id); 
                 
     })
