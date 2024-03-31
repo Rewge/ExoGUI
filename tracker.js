@@ -5,6 +5,7 @@ let binselected = " ";
 let timeselected = " ";
 binselectedfinal.disabled=true;
 
+console.log("New");
 timeselectedfinal.disabled = true;
 
 
@@ -56,21 +57,7 @@ timeselectedfinal.disabled = true;
 
     })
     
-   
-document.addEventListener('DOMContentLoaded',()=>{
-    document.querySelectorAll('.divblock9').forEach(element => {
-        element.addEventListener('click',()=>{
-            const id = element.id;
-            binselected = element.id ;
-            console.log(id); 
-                
-    })
-        
-        })
-        
 
-
-})
 
 
 const months= [
@@ -98,15 +85,12 @@ const bins =[
 
 ]
 
-document.querySelector('.nextStep').addEventListener('click',track)
+document.querySelector('.nextStep').addEventListener('click',()=>{
 
-function track(){
-    FinalRecord += "Date : "+ (document.querySelector('.clicked').innerHTML);
-    FinalRecord += " Month : " + months[date.getMonth()];
     timeselected += document.querySelector('.clicked').innerHTML + ' ' +  months[date.getMonth()];
-    console.log(FinalRecord);
+    console.log(69);
     console.log()
-}
+})
 
 
 
