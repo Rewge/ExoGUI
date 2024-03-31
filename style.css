@@ -78,6 +78,8 @@
 
 
 }
+
+
 .step2{
     font-size: 62.5%;
     width: auto ;
@@ -93,7 +95,7 @@
 
 
     transform: scale(0.5); 
-    transform-origin:top left;
+    transform-origin:top ;
 }
 .div-block-41{
     display: none;
