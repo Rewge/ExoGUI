@@ -1,6 +1,4 @@
-document.getElementById("bintextput").textContent = ' ' ;
-document.getElementById("addresstextput").textContent = ' ';
-document.getElementById("timetextput").textContent = ' ';
+
 
 
 
