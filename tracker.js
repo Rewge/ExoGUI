@@ -1,6 +1,6 @@
 let FinalRecord=" ";
-let binselectedfinal = document.getElementById('bin-Selected');
-let timeselectedfinal = document.getElementById('time-Selected');
+let binselectedfinal = document.getElementById('Bin');
+let timeselectedfinal = document.getElementById('Time');
 let binselected = " ";
 let timeselected = " ";
 binselectedfinal.disabled=true;
