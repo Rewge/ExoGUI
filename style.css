@@ -6,7 +6,9 @@
 
   
 
-
+.step4{
+    display:none;
+}
 
 .selectDate{
     color:black;
