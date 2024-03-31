@@ -1,56 +1,11 @@
-.body{
-    margin: 0;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    z-index: -2;
-    max-width: 100%;
-    max-height: 100%;
+*{
+    margin:0 0;
 
 }
 
 
-
-.first{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-
-@keyframes bounce {
-    0%{ transform: scale(1); } /* Start and end at normal size for a smooth loop */
-    100% { transform: scale(1.05); }
-
-  }
   
-.selectbackground{
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(228, 228, 228);
 
-}
-
-
-
-.selectionmenu{
-    
-    display: none;
-
-
-    justify-content: center;
-    
-
-}
 
 
 .selectDate{
@@ -68,45 +23,14 @@
 
 }
 
-.div-block-9{
-   
-}
 
-
-.selectBinText{
-    width: 10%;
-    height: 40px;
-    align-items: center;
-    text-align: center;
-
-    
-    
-    
-}
-.circleIcons{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 20px;
-    width: 98%;
-    margin-top: -10px;
-    
-
-}
-
-.selectBin1{
-    width: 100%;
-    justify-content: center;
-    display:flex;
-    flex-direction: row;
-}
 
 
 
 
 .box{
-    margin:10px ;
-    width: 20vw;
+    margin:10% ;
+    width: 20%;
     height: 30vh;
     background-color: black;
     position: relative;
@@ -142,19 +66,7 @@
     color:rgb(41, 41, 41);
 
 }
-.selectButton{
-    color:white;
-    background-color: #1976d2;
-    padding: 10px 10px 10px 10px;
-}
 
-.binText{
-    padding: 10px 10px 10px 10px;
-
-
-
-
-}
 
 
 .step2{
@@ -170,8 +82,8 @@
     flex-direction: column;
 
 
-    transform: scale(0.75); 
-    transform-origin: top;
+    transform: scale(0.5); 
+    transform-origin:top left;
 }
 
 .calendarBG1{
