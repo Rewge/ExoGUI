@@ -72,7 +72,12 @@
 }
 
 
+.foundation{
+    max-width: 800px;
+    max-height: 800px;
 
+
+}
 .step2{
     font-size: 62.5%;
     width: auto ;
