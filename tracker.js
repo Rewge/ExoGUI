@@ -68,6 +68,7 @@ const bins =[
 ]
 
 document.querySelector('.nextStep').addEventListener('click',()=>{
+    document.querySelector('.div-block-41').style.display='none';
 
     timeselected += document.querySelector('.clicked').innerHTML + ' ' +  months[date.getMonth()];
     console.log(69);
