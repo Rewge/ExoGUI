@@ -19,7 +19,7 @@ timeselectedfinal.disabled = true;
         
                 const step4= document.querySelector('.div-block-13');
                 step4.style.display ='none';
-
+                document.querySelector('.div-block-41').style.display='none';
                 timeselected +=" at " + element.id ;
                 console.log(FinalRecord);
 
