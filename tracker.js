@@ -1,11 +1,11 @@
 let FinalRecord=" ";
-let binselectedfinal = document.getElementById('field-4');
-let timeselectedfinal = document.getElementById('field-5');
+let binselectedfinal = document.getElementById('bin-selected');
+let timeselectedfinal = document.getElementById('time-selected');
 let binselected = " ";
 let timeselected = " ";
 binselectedfinal.disabled=true;
 
-console.log("New");
+console.log("New1");
 timeselectedfinal.disabled = true;
 
 
