@@ -72,15 +72,10 @@
 }
 
 
-.foundation{
-    max-width: 800px;
-    max-height: 800px;
-
-
-}
 
 
 .step2{
+    
     font-size: 62.5%;
     width: auto ;
     height:auto;
@@ -94,8 +89,8 @@
     flex-direction: column;
 
 
-    transform: scale(0.5); 
-    transform-origin:top ;
+    
+    transform-origin:top left ;
 }
 .div-block-41{
     display: none;
@@ -282,6 +277,13 @@ padding: 5px;
 
 .div-block-12{
     display: none;
+}
+
+.foundation{
+    width: 45rem; /* Set the same width as .calendarBG1 and .calendarBG2 for consistency */
+    height: 30rem;
+    transform: scale(0.5); 
+    transform-origin: top left;
 }
 
 
