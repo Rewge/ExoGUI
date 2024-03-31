@@ -1,5 +1,5 @@
 let FinalRecord=" ";
-let binselectedfinal =     document.getElementById('field-4');
+let binselectedfinal = document.getElementById('field-4');
 let timeselectedfinal = document.getElementById('field-5');
 let binselected = " ";
 let timeselected = " ";
@@ -19,13 +19,13 @@ timeselectedfinal.disabled = true;
                 const step4= document.querySelector('.div-block-13');
                 step4.style.display ='none';
 
-                timeselected = element.id ;
+                timeselected +=" at " + element.id ;
                 console.log(FinalRecord);
 
                 const step5 = document.querySelector('.divblock14');
                 step5.style.display ='flex';
-                binselectedfinal.placeholder= binselected;
-                timeselectedfinal.placeholder =timeselected;
+                binselectedfinal.value= binselected;
+                timeselectedfinal.value =timeselected;
     
             })
            
@@ -103,7 +103,7 @@ document.querySelector('.nextStep').addEventListener('click',track)
 function track(){
     FinalRecord += "Date : "+ (document.querySelector('.clicked').innerHTML);
     FinalRecord += " Month : " + months[date.getMonth()];
-    document.getElementById("timetextput").textContent = ' to be delivered on ' + document.querySelector('.clicked').innerHTML + ' ' +  months[date.getMonth()];
+    timeselected += document.querySelector('.clicked').innerHTML + ' ' +  months[date.getMonth()];
     console.log(FinalRecord);
     console.log()
 }

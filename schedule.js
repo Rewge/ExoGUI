@@ -58,6 +58,9 @@ document.addEventListener('DOMContentLoaded',()=>{
             block12.style.display='flex';
             const box2= document.querySelector('.step2');
             box2.style.display='flex';
+            const id = element.id;
+            binselected += element.id ;
+            console.log(id); 
         }
         )
         
