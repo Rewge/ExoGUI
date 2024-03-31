@@ -282,12 +282,38 @@ padding: 5px;
 .foundation{
     width: 45rem; /* Set the same width as .calendarBG1 and .calendarBG2 for consistency */
     height: 30rem;
-    transform: scale(0.5); 
+    transform: scale(1); /* Default scale for larger screens */
     transform-origin: top left;
 }
 
 
+.responsive-iframe {
+    width: 1200px; /* Double the size for desktop */
+    height: 800px; /* Double the size for desktop */
+}
 
+
+@media (max-width: 768px) {
+    .responsive-iframe {
+        width: 600px; /* Set width for mobile */
+        height: 400px; /* Set height for mobile */
+    }
+}
+
+@media (max-width: 768px) {
+    .step2 {
+        /* Scale down the .step2 for smaller screens */
+        transform: scale(0.7);
+    }
+}
+
+/* You could also add another media query for mobile phones specifically */
+@media (max-width: 480px) {
+    .step2 {
+        /* Adjust the scale for mobile phones if necessary */
+        transform: scale(0.7);
+    }
+}
 /*
 
 div-block-24//Submit button
