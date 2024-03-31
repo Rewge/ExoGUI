@@ -35,18 +35,44 @@ document.addEventListener('DOMContentLoaded',()=>{
     const box = document.querySelector('.w-layout-blockcontainer.w-container');
 
 
-       //     box.style.display = 'none';
+            box.style.display = 'none';
             const box2= document.querySelector('.step2');
             const block12 = document.querySelector('.div-block-12')
             block12.style.display='none';
             box2.style.display='none';
-            document.querySelector('.div-block-41').style.display='flex';
+            document.querySelector('.div-block-41').style.display='none';
             const step4= document.querySelector('.div-block-13');
             step4.style.display ='flex';
            
 
 
 })})
+
+document.addEventListener('DOMContentLoaded', () => {
+    const iframe = document.querySelector('iframe'); // Replace 'iframe' with a more specific selector if necessary
+
+    // Wait for the iframe to fully load
+    iframe.addEventListener('load', () => {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+        const nextStepButton = iframeDocument.querySelector('.nextStep');
+        if (nextStepButton) {
+            nextStepButton.addEventListener('click', () => {
+                const box = iframeDocument.querySelector('.w-layout-blockcontainer.w-container');
+                const block12 = iframeDocument.querySelector('.div-block-12');
+                const box2 = iframeDocument.querySelector('.step2');
+                const divBlock41 = iframeDocument.querySelector('.div-block-41');
+                const step4 = iframeDocument.querySelector('.div-block-13');
+
+                if (block12) block12.style.display = 'none';
+                if (box2) box2.style.display = 'none';
+                if (divBlock41) divBlock41.style.display = 'flex';
+                if (step4) step4.style.display = 'flex';
+            });
+        }
+    });
+});
+
 
 
 
