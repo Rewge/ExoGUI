@@ -303,7 +303,7 @@ padding: 5px;
 @media (max-width: 768px) {
     .step2 {
         /* Scale down the .step2 for smaller screens */
-        transform: scale(0.7);
+        transform: scale(0.5);
     }
 }
 
@@ -311,7 +311,7 @@ padding: 5px;
 @media (max-width: 480px) {
     .step2 {
         /* Adjust the scale for mobile phones if necessary */
-        transform: scale(0.7);
+        transform: scale(0.5);
     }
 }
 /*
