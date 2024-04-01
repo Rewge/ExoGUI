@@ -40,9 +40,15 @@ document.addEventListener('DOMContentLoaded',()=>{
             const block12 = document.querySelector('.div-block-12')
             block12.style.display='none';
             box2.style.display='none';
+            setTimeout(() => {
+                block12.style.opacity = 0; // Use 1 instead of 100 for opacity
+            }, 10); // 10-millisecond delay
             document.querySelector('.div-block-41').style.display='flex';
             const step4= document.querySelector('.div-block-13');
             step4.style.display ='flex';
+            setTimeout(() => {
+                step4.style.opacity = 1; // Use 1 instead of 100 for opacity
+            }, 10); // 10-millisecond delay
            
 
 
