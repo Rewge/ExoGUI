@@ -81,8 +81,12 @@ document.addEventListener('DOMContentLoaded',()=>{
         element.addEventListener('click',()=>{
             const box = document.querySelector('.w-layout-blockcontainer.w-container');
             box.style.display = 'none';
+            
             const block12 = document.querySelector('.div-block-12')
+            block12.style.opacity=0;
+
             block12.style.display='flex';
+            block12.style.opacity=1;
             const box2= document.querySelector('.step2');
             box2.style.display='flex';
             const id = element.id;
