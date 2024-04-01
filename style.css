@@ -277,6 +277,9 @@ padding: 5px;
 
 .div-block-12{
     display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Adjust the time as needed */
+
 }
 
 .foundation{

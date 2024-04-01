@@ -86,7 +86,9 @@ document.addEventListener('DOMContentLoaded',()=>{
             
 
             block12.style.display='flex';
-            block12.style.opacity=100; 
+            setTimeout(() => {
+                block12.style.opacity = 1; // Use 1 instead of 100 for opacity
+            }, 10); // 10-millisecond delay
             const box2= document.querySelector('.step2');
             box2.style.display='flex';
             const id = element.id;
