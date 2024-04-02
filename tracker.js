@@ -5,6 +5,19 @@ let binselected = " ";
 let timeselected = " ";
 binselectedfinal.disabled=true;
 
+
+
+document.querySelector('nav-button.w-nav-button').addEventListener('click',()=>{
+    setTimeout(() => {
+       const step1= document.querySelector('.step1');
+
+       step1.style.display='flex';
+       step1.style.opacity=1;
+    }, 10);
+
+}
+)
+
 console.log("New1");
 timeselectedfinal.disabled = true;
 
