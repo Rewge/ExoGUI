@@ -237,7 +237,15 @@
 .calendarPrevDates div:not(.prev-date):not(.past-date):hover {
     outline: 0.5px solid rgb(0, 65, 71);
     background-color: rgb(126, 126, 126);
+    scale:1.2;
+
     color: white;
+}
+
+.no-hover{
+    background-color: green !important;
+
+
 }
 
 

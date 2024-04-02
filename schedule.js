@@ -1,6 +1,8 @@
 
 
-
+document.querySelector('.nav-button.w-nav-button.w--open').addEventListener('click',()=>{
+    document.querySelector('.nav-button.w-nav-button.w--open').display='none';
+})
 
 
 
@@ -224,12 +226,20 @@ monthDays.innerHTML = days;
             if (prevclickCount===1){
                 prevclick.classList.remove('clicked');
                 element.classList.add('clicked');
+                element.classList.add('no-hover');
+
+             
+                prevclick.classList.remove('no-hover');
+
+
                 prevclick=element;
                 prevclickCount=1;
             }
             else{
                 prevclick=element;
+        
                 element.classList.add('clicked');
+                element.classList.add('no-hover');
                 prevclickCount=1;
 
 
