@@ -16,14 +16,16 @@ timeselectedfinal.disabled = true;
     document.addEventListener('DOMContentLoaded',()=>{
         document.querySelectorAll('.select.w-button').forEach(element=>{
             element.addEventListener('click',()=>{
-        
-                const step4= document.querySelector('.div-block-41');
+                setTimeout(() => { const step4= document.querySelector('.div-block-41');
                 step4.style.display ='none';
 
                 const steplast = document.querySelector('.menu-wrapper.two').addEventListener('click',()=>{
                     steplast.style.display='none';
                     document.querySelector('pony').style.display='flex';
 
+                   
+                }, 10);
+               
 
 
                 })
