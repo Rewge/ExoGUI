@@ -19,6 +19,14 @@ timeselectedfinal.disabled = true;
         
                 const step4= document.querySelector('.div-block-41');
                 step4.style.display ='none';
+
+                const steplast = document.querySelector('.nav-wrapper.2').addEventListener('click',()=>{
+                    steplast.style.display='none';
+                    document.querySelector('pony').style.display='flex';
+
+
+
+                })
               
                 timeselected +=" at " + element.id ;
                 console.log(FinalRecord);
