@@ -1,6 +1,7 @@
 
 
 document.querySelector('.nav-button.w-nav-button.w--open').addEventListener('click',()=>{
+    console.log('test');
     document.querySelector('.nav-button.w-nav-button.w--open').display='none';
 })
 
