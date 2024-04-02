@@ -17,13 +17,13 @@ timeselectedfinal.disabled = true;
         document.querySelectorAll('.select.w-button').forEach(element=>{
             element.addEventListener('click',()=>{
         
-                const step4= document.querySelector('.div-block-13');
+                const step4= document.querySelector('.div-block-41');
                 step4.style.display ='none';
-                document.querySelector('.div-block-41').style.display='none';
+              
                 timeselected +=" at " + element.id ;
                 console.log(FinalRecord);
 
-                const step5 = document.querySelector('.divblock14');
+                const step5 = document.querySelector('.pony');
                 step5.style.display ='flex';
                 binselectedfinal.value= binselected;
                 timeselectedfinal.value =timeselected;

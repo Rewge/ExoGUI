@@ -242,6 +242,9 @@
     color: white;
 }
 
+.pony{
+    display: flex;
+}
 .no-hover{
     background-color: green !important;
 
@@ -292,7 +295,7 @@ padding: 10px 10px;
 }
 
 .divblock14{
-    display: none;
+    display: flex;
 
 
 }

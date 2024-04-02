@@ -1,14 +1,5 @@
 
 
-document.querySelector('.heading-11').addEventListener('click',()=>{
-    console.log('test');
-    document.querySelector('.container').style.display='none';
-})
-
-
-
-
-
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
         element.addEventListener('click',()=>{
