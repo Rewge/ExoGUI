@@ -7,7 +7,7 @@ binselectedfinal.disabled=true;
 
 
 
-document.querySelector('.container').addEventListener('click',()=>{
+document.querySelector('.nav-wrapper').addEventListener('click',()=>{
         alert("hi");
 
 
@@ -20,7 +20,7 @@ document.querySelector('.container').addEventListener('click',()=>{
 }
 )
 
-console.log("New1");
+console.log("New2");
 timeselectedfinal.disabled = true;
 
 
