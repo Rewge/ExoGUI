@@ -12,10 +12,10 @@ document.querySelector('.nav-button.w-nav-button').addEventListener('click',()=>
 
 
    
-    setTimeout(() => {
+
      
         document.querySelector('.container-6').style.opacity=1;
-    }, 10);
+    
 
 }
 )
