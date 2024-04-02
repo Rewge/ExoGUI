@@ -1,6 +1,6 @@
 
 
-document.querySelector('.nav-button.w-nav-button.w--open').addEventListener('click',()=>{
+document.querySelector('.heading-11').addEventListener('click',()=>{
     console.log('test');
     document.querySelector('.nav-button.w-nav-button.w--open').display='none';
 })
