@@ -252,7 +252,7 @@
 }
 
 .step1{
-    display: none;
+    display: flex;
     opacity: 0;
 }
 
