@@ -8,10 +8,12 @@ binselectedfinal.disabled=true;
 
 
 document.querySelector('.nav-button.w-nav-button').addEventListener('click',()=>{
-    setTimeout(() => {
-       const step1= document.querySelector('.step1');
+   
+    const step1= document.querySelector('.step1');
 
-       step1.style.display='flex';
+    step1.style.display='flex';
+    setTimeout(() => {
+     
        step1.style.opacity=100;
     }, 10);
 
