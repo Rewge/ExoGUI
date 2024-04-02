@@ -97,7 +97,8 @@ document.addEventListener('DOMContentLoaded',()=>{
             }, 10); // 10-millisecond delay
             const box2= document.querySelector('.step2');
             box2.style.display='flex';
-            document.getElementById('steptext').textContent="Step 02";
+            document.getElementById('steptext').innerHTML="Step 02";
+            document.getElementById('stepdes').innerHTML="Select the date you would like the junk removal team to arrive";
             const id = element.id;
             binselected += element.id ;
             console.log(id); 
