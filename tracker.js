@@ -14,8 +14,8 @@ document.querySelector('.nav-wrapper').addEventListener('click',()=>{
    
 
      
+        
         document.querySelector('.container-6').style.opacity=1;
-    
 
 }
 )

@@ -1,5 +1,11 @@
 
 
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded',()=>{
     document.querySelectorAll('.divblock9').forEach(element => {
         element.addEventListener('click',()=>{
@@ -91,6 +97,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             }, 10); // 10-millisecond delay
             const box2= document.querySelector('.step2');
             box2.style.display='flex';
+            document.getElementById('steptext').textContent="Step 02";
             const id = element.id;
             binselected += element.id ;
             console.log(id); 
