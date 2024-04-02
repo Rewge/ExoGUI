@@ -9,12 +9,12 @@ binselectedfinal.disabled=true;
 
 document.querySelector('.nav-button.w-nav-button').addEventListener('click',()=>{
    
-    const step1= document.querySelector('.step1');
+
 
    
     setTimeout(() => {
      
-       step1.style.opacity=100;
+        document.querySelector('.container-6').style.opacity=1;
     }, 10);
 
 }
