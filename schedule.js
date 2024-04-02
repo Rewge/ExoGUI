@@ -2,7 +2,7 @@
 
 document.querySelector('.heading-11').addEventListener('click',()=>{
     console.log('test');
-    document.querySelector('.nav-button.w-nav-button.w--open').style.display='none';
+    document.querySelector('.container').style.display='none';
 })
 
 
