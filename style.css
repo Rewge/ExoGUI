@@ -2,8 +2,13 @@
     margin:0 0;
     padding: 0;
     box-sizing: border-box; /* Add this line to handle padding and borders */
+    
+        font-family: 'Sen', sans-serif;
+    
+      transition: 0.5s ease;
 
 }
+
 
 
   
@@ -66,10 +71,12 @@
 }
 .prev-date{
     color:rgb(213, 213, 213);
+    
 }
 
 .next-date{
     color:rgb(41, 41, 41);
+ 
 
 }
 
@@ -175,6 +182,8 @@
 
 }
 
+
+
 .calendarDays{
     font-weight: 550;
     padding: 1rem 0;
@@ -218,15 +227,16 @@
 
 }
 
+
 .calendarDays div:hover{
-    background-color: black;
+    background-color: rgb(113, 113, 113);
     color:white;
     outline:0.5px solid rgb(0, 65, 71);
 
 }
 .calendarPrevDates div:not(.prev-date):not(.past-date):hover {
     outline: 0.5px solid rgb(0, 65, 71);
-    background-color: black;
+    background-color: rgb(126, 126, 126);
     color: white;
 }
 
@@ -247,16 +257,18 @@
     display:flex;
     justify-content: space-around;
     gap: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 
+
+
 .navigate div{
 cursor: pointer;
-padding: 5px;
+padding: 10px 10px;
  color: white;
  background-color: #1976d2;
- width: 5rem;
+
  text-align: center;
 
 }
@@ -284,11 +296,22 @@ padding: 5px;
 
 }
 
+.navigate div{
+    transition:ease 0.2s ;
+}
+
+.navigate div:hover{
+    background-color: black;
+    scale: 1.2;
+
+}
+
 .foundation{
     width: 45rem; /* Set the same width as .calendarBG1 and .calendarBG2 for consistency */
     height: 30rem;
     transform: scale(1); /* Default scale for larger screens */
     transform-origin: top left;
+ 
 }
 
 

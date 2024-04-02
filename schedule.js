@@ -187,7 +187,7 @@ monthDays.innerHTML = days;
                    
                     
                     if (parseInt(element.innerHTML)===Number){
-                        
+                       
                         element.classList.add('clicked');
                         prevclick=element;
                         prevclickCount=1;
