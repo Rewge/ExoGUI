@@ -8,13 +8,13 @@ binselectedfinal.disabled=true;
 
 
 document.querySelector('.nav-button.w-nav-button').addEventListener('click',()=>{
-   
+        alert("hi");
 
 
    
 
      
-        document.querySelector('.container-6').style.opacity='1';
+        document.querySelector('.container-6').style.opacity=1;
     
 
 }
