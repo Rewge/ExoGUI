@@ -21,14 +21,14 @@ timeselectedfinal.disabled = true;
 
                 const steplast = document.querySelector('.menu-wrapper.two');
                     steplast.style.display='none';
-                    document.querySelector('pony').style.display='flex';
+                    
 
                    
                
                
 
 
-                })
+                
               
                 timeselected +=" at " + element.id ;
                 console.log(FinalRecord);
@@ -43,9 +43,10 @@ timeselectedfinal.disabled = true;
     
     
         })
-    
-    
     })
+    
+    
+    
 
 
     
