@@ -181,27 +181,7 @@ for(let j=1;j<=nextDays;j++){
 
 monthDays.innerHTML = days;
 
-    document.querySelectorAll('.next-date').forEach(element=>{
-
-        element.addEventListener('click',()=>{
-            
-
-            document.querySelector('.arrow2').click();
-  
-            
-        
-            }
-            )
-            
     
-    
-    
-
-
-        })
-    
-       
-
 
 
 
