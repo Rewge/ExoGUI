@@ -11,10 +11,6 @@
 
 }
 
-.bodya{
-    display: flex;
-    justify-content: center;
-}
 
 
 
@@ -129,7 +125,7 @@
 
 
     
-    transform-origin:top  ;
+    transform-origin:top left  ;
 }
 .div-block-41{
     display: none;
