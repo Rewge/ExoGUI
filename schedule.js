@@ -188,8 +188,8 @@ monthDays.innerHTML = days;
             date.setMonth(date.getMonth()+1);
             renderCalender();
   
-
-            document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
+            
+           /*document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
   
                 
                    
@@ -203,7 +203,7 @@ monthDays.innerHTML = days;
                   
                 }
             
-            )
+            )*/
             }
             )
             
@@ -220,7 +220,7 @@ monthDays.innerHTML = days;
 
 
 
-
+    
 
 
 
