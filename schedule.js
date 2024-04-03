@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         element.addEventListener('click',()=>{
             const box = document.querySelector('.w-layout-blockcontainer.w-container');
             box.style.display = 'none';
-            
+            document.querySelector('.step1').style.display='none';
             const block12 = document.querySelector('.div-block-12');
             
 
