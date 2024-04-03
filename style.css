@@ -353,7 +353,7 @@ padding: 10px 20px;
 .foundation{
     width: 45rem; /* Set the same width as .calendarBG1 and .calendarBG2 for consistency */
     height: 30rem;
-    transform: scale(0.7); /* Default scale for larger screens */
+    transform: scale(0.8); /* Default scale for larger screens */
     transform-origin: top left;
     border-radius: 20px;
  
