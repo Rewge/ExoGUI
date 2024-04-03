@@ -23,11 +23,13 @@ document.querySelector('.backStep').addEventListener('click',()=>{
     const box = document.querySelector('.w-layout-blockcontainer.w-container');
     const block12 = document.querySelector('.div-block-12')
     block12.style.display='none';
+    document.querySelector('.step1').style.display='flex';
+
             box.style.display = 'flex';
             const box2= document.querySelector('.step2');
             box2.style.display='none';
-            document.getElementById('steptext').innerHTML="Step 02";
-            document.getElementById('stepdes').innerHTML="Select the date you would like the junk removal team to arrive"
+            document.getElementById('steptext').innerHTML="Step 01";
+            document.getElementById('stepdes').innerHTML='Select the load size<br>View the <a href="/loads-info" class="link-9">load chart</a> for more information about each option<br>';
         
 
 
@@ -43,6 +45,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const block12 = document.querySelector('.div-block-12')
             block12.style.display='none';
             box2.style.display='none';
+
             setTimeout(() => {
                 block12.style.opacity = 0; // Use 1 instead of 100 for opacity
             }, 10); // 10-millisecond delay
