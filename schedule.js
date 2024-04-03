@@ -190,21 +190,7 @@ monthDays.innerHTML = days;
             document.querySelector('.arrow2').click();
   
             
-           document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
-  
-                
-                   
-                    
-                    if (parseInt(element.innerHTML)===Number){
-                       
-                        element.classList.add('clicked');
-                        prevclick=element;
-                        prevclickCount=1;
-                    }
-                  
-                }
-            
-            )
+        
             }
             )
             
