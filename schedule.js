@@ -186,7 +186,6 @@ monthDays.innerHTML = days;
         element.addEventListener('click',()=>{
             
 
-            Number = parseInt(element.innerHTML);
             document.querySelector('.arrow2').click();
   
             
