@@ -184,14 +184,13 @@ monthDays.innerHTML = days;
     document.querySelectorAll('.next-date').forEach(element=>{
 
         element.addEventListener('click',()=>{
-            element.stopPropagation();
+            
 
             Number = parseInt(element.innerHTML);
-            date.setMonth(date.getMonth()+1);
-            renderCalender();
+            document.querySelector('.arrow2').click();
   
             
-           /*document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
+           document.querySelectorAll('.calendarPrevDates div:not(.prev-date):not(.past-date):not(.next-date)').forEach(element=>{
   
                 
                    
@@ -205,7 +204,7 @@ monthDays.innerHTML = days;
                   
                 }
             
-            )*/
+            )
             }
             )
             
