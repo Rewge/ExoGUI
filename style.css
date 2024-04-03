@@ -331,6 +331,7 @@ padding: 10px 10px;
 .responsive-iframe {
     width: 1200px; /* Double the size for desktop */
     height: 800px; /* Double the size for desktop */
+    transform:scale(0.8);
 
 }
 

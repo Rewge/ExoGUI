@@ -26,6 +26,9 @@ document.querySelector('.backStep').addEventListener('click',()=>{
             box.style.display = 'flex';
             const box2= document.querySelector('.step2');
             box2.style.display='none';
+            document.getElementById('steptext').innerHTML="Step 02";
+            document.getElementById('stepdes').innerHTML="Select the date you would like the junk removal team to arrive"
+        
 
 
 })})
@@ -46,6 +49,9 @@ document.addEventListener('DOMContentLoaded',()=>{
             document.querySelector('.div-block-41').style.display='flex';
             const step4= document.querySelector('.div-block-13');
             step4.style.display ='flex';
+            document.getElementById('steptext').innerHTML="Step 03";
+            document.getElementById('stepdes').innerHTML="Select the time-slot you would like the junk removal team to arrive"
+        
             setTimeout(() => {
                 step4.style.opacity = 1; // Use 1 instead of 100 for opacity
             }, 10); // 10-millisecond delay
@@ -98,7 +104,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             const box2= document.querySelector('.step2');
             box2.style.display='flex';
             document.getElementById('steptext').innerHTML="Step 02";
-            document.getElementById('stepdes').innerHTML="Select the date you would like the junk removal team to arrive";
+            document.getElementById('stepdes').innerHTML="Select the date you would like the junk removal team to arrive"
             const id = element.id;
             binselected += element.id ;
             console.log(id); 
