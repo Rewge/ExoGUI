@@ -184,6 +184,8 @@ monthDays.innerHTML = days;
     document.querySelectorAll('.next-date').forEach(element=>{
 
         element.addEventListener('click',()=>{
+            element.stopPropagation();
+
             Number = parseInt(element.innerHTML);
             date.setMonth(date.getMonth()+1);
             renderCalender();
