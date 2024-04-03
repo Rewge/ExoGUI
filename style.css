@@ -11,6 +11,12 @@
 
 }
 
+.bodya{
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .arrow:hover{
 
@@ -123,7 +129,7 @@
 
 
     
-    transform-origin:top left ;
+    transform-origin:top  ;
 }
 .div-block-41{
     display: none;
