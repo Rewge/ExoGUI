@@ -8,7 +8,7 @@ binselectedfinal.disabled=true;
 
 
 document.querySelector('.nav-wrapper').addEventListener('click',()=>{
-        alert("hi");
+
 
 
    
